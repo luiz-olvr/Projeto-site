@@ -13,5 +13,25 @@ main{
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 5px black;
-    padding: 10px;
+    padding: 50px;
 }
+
+#Link-h{
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(51, 52, 52);
+    }
+    #Link-h li{
+        display: inline;
+        padding: 8px;
+    }
+    #Link-h a{
+        display: inline-block;
+        color: #FFF;
+        text-decoration: none;
+        padding: 20px;
+        transition: background .5s;
+    }
+    #Link-h li a:hover{
+        background-color: rgb(0, 65, 118);
+    }
