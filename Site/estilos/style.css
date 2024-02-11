@@ -66,3 +66,6 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+.Titulo{
+    transform: translate(0%,-3%);
+}
