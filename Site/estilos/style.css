@@ -4,18 +4,28 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-color: black;
 
 }
 
 main{
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 1100px;
-    height: 900px;
+    height: 500px;
     border-radius: 40px;
     margin: auto;
     box-shadow: 3px 3px 5px black;
     padding: 50px;
+}
+
+header{
+    background-color: whitesmoke;
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    color: black;
+    transition: background .5s;
 }
 
 #Link-h{
@@ -25,7 +35,7 @@ main{
     height: 10%;
     border-radius: 10px;
     display: flex;
-    top: 50%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%,-180%);
     justify-content: space-between;
@@ -48,7 +58,7 @@ main{
         background-color: rgb(0, 65, 118);
     }
 .m-links{
-    padding-left: 12%;
+    padding-left: 3%;
     padding-top: 5%;
     
 }
@@ -57,15 +67,13 @@ main{
     padding-left: 3%;
 }
 
-.imagem{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-430%,-370%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .Titulo{
-    transform: translate(0%,-3%);
+    padding-left: 145px;
+    padding-top: 15px;
+    margin: auto;
+}
+header:hover{
+    background: burlywood;
+
 }
